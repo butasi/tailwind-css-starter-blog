@@ -1,126 +1,69 @@
 ---
-title: Linux Knowledge
+title: Linux
 date: '2022-10-5'
 tags: ['Arch Linux', 'i3wm', 'awesomewm']
 draft: false
-summary: 'My Linux Journey.'
+summary: 'A page for Linux Stuff.'
 ---
 
-> # Introduction
+> # `Overview`
 
-<p>
-  {' '}
-  To explain how I got into `Linux` it is only fair that we go back to the very beginning of this journey.
-  Back then I had always been fascinated with hacking and the cool mambo jambo that went on there. I
-  cannot remember at what age exactly but it was always there at the back of my mind. Needless to say
-  I was elbows deep in all electronics I could get my hands on. This, minus the times shit went side
-  ways and I had to explain what I was doing inside the new radio is partially why I got into IT.
-</p>
-<p>
-  Flash forward to during my Diploma course. I was at the computer lab with my fresh install of
-  Windows 10 ready to fill it up with the usual junk. There was this guy there with his tiny laptop
-  hammering at his keyboard profusely. "He must be one of those." In my snickering I decided to
-  glance at whatever this guy was doing. It is said when you have a passion,a desire for something,
-  it is really the passion that has you. I stared into the abyss and it stared back. Here, I was
-  caught by the love for the terminal.
-</p>
-<p>
-  At the time I had only interacted with cmd and armed myself with some diskpart commands. I was
-  pretty good, or atleast thats what I thought then. Yet here was a guy doing what ever unbelievable
-  stuff this is. It had already been decided. I had to know whatever this 'godlike' power was. He
-  might have been running a simple `apt-update` but to this bewildered young man , this was
-  something extra ordinary.
-</p>
-<p>
-  {' '}
-  Into the rabbit hole I started. In and Out like in Kamiti, I thought. Well many years later it still
-  feels like I am just touching the tip of the ice berg. Still after all this journey to oblivion do
-  I seem to glance at the beginning of eternity First came Kali Linux, which is still the buggiest I
-  have ever had to use,or maybe my it was just my install. There was a time I had to go for a weekafter
-  wrecking my systems. I wanted to dual boot Kali with Windows yet my grub skills were non existent.
-  Eventually figured it out. I remember my first successful installation, the dragon unveiling itself
-  on my screen and I just sat there and wondered `what next` and it was back to searching how to install
-  vlc.
-</p>
-<p>
-  Then came Parrot OS still based on debian. At the time, it seemed easier and more natural. I guess
-  I had already gone through the hardships of setting up kali Linux and getting it usable. This was
-  when I discovered there was actually Desktop Environments and Window Manager. Before I had always
-  been on gnome and ever since I switched from it I never tried it again Then came KDE and I was
-  like, now this is Linux. When I found plasma, I didn't know what it was but I knew it would
-  replace gnome if I installed it on my system. So I purged gnome, just literally reaping out apps I
-  knew were gnomey(yeah I'll use that) and installed plasma. At the end I had broken dependancies a
-  slow and buggy system but some how withinthe mismatched window titlesand colors it had worked.
-  Within the shocked sytem state, I could see the difference. I think neofetch is what narrowed me
-  down and I ended up discovering a whole new field It was as though I had been operating in this
-  folder and now I could `cd ..` into a previous folder with even more stuff
-</p>
-<p>
-  {' '}
-  Me and mine moved over to KDE on Parrot OS. Easier said than done; This was after countless other distros.
-  Now that I had the knowledge and the know how on how to get and boot different disros, it was only
-  fair that I try out afew. Maybe one or two. It was a lot. It wasnt one or two and I dare say I wenton
-  a frenzy with it. Still, after countless other tries Somehow still I found out about tiling from the
-  settings in KDE. I was able to add a tiling manager to my KDE installation. This was still on Parrot
-  OS.
-</p>
-By this time I already knew of Arch Linux. But 'read the archwiki' comments werent doing me any good
-so Installation
+Awesome Tools tools I have come across. Installation procedures are for arch linux
+with `yay` as the Arch User Repository Manager. Users of other distributions should
+find equivalent commands for their systems.
 
-> # My Current system
+`Neofetch`
 
-As of 5th Oct 2022 21:17
+> Neofetch is a system information tool for many systems running the Bash shell.
+> On the left side is always a logo of the distribution, rendered in ASCII art.
+> There is no refresh like the ability of a system monitor because the intended purpose are screenshots.
+
+To install run
 
 ```
-Operating System: Arch Linux x86_64
-Host: HP Pavilion x360 Convertible 15-br0xx
-Kernel: 5.19.12-arch1-1
-Shell: zsh 5.9
-WM: awesome
+sudo pacman -S neofetch
 ```
 
-> ## Installation
+`Bpytop`
 
-**Assumptions**:
-
-1.A x86_64 (i.e. 64 bit) compatible machine
-
-2.Minimum 512 MB of RAM (recommended 2 GB)
-
-3.A USB drive with minimum 2 GB of storage capacity
-
-4.At least 2 GB of free disk space (recommended 20 GB for basic usage with a desktop environment)
-
-5.An active internet connection
-
-> **Aim**:
-
-1.Install a functional system using guided installer
-
-2.Install awesomewm
-
-> **Start**:
-
-1.Download the Arch Linux ISO
-
-2.Create a live USB of Arch Linux
-
-3.Boot from the live USB
-
-4.Check network connectivity
-
-```tex
-ping arch.org
-```
-
-5. Connect to wifi using `iwctl` provided by `iwd` in the installation medium.
+> BpyTop is an open-source command-line application allowing linux users to monitor their system resources like memory, CPU,
+> and network information. It displays all the required information right onto your terminal.
+> It works similar to HTop and Top but has a more advanced interface than them.
 
 ```
-An Ethernet Cable is preffered
+yay -S bpytop
 ```
 
-6.run
+`tldr`
+
+> Command line client for tldr, a collection of simplified and community-driven man pages.
 
 ```
-archinstall
+sudo pacman -S tldr
+```
+
+`Polly Grey`
+
+```
+Men don’t have the strategic intelligence to conduct a war between families.
+Men are less good at keeping secrets out of their lies.
+```
+
+`Walter White`
+
+```
+Right now, what I need, is for you to climb down out of my *ss.
+Can you do that? Will you do that for me, honey?
+Will you please, just once, get off my *ss?
+You know? I’d appreciate it. I really would.
+```
+
+```
+What I came to realize is that fear, that’s the worst of it.
+That’s the real enemy. So, get up, get out in the real world and
+you kick that bastard as hard you can right in the teeth.
+```
+
+```
+There is gold in the streets just waiting for someone to come and scoop it up.
 ```
