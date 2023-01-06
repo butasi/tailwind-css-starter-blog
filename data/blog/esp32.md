@@ -4,10 +4,12 @@ date: '2023-01-06'
 tags: ['arduino']
 draft: false
 summary:
-images: []
+images: ['/static/images/esp32.jpg']
 ---
 
-# ESP32 Home Automation: The Future of Smart Homes
+# `ESP32 Home Automation:`
+
+# The Future of Smart Homes
 
 Are you tired of coming home to a dark and uninviting house? Do you wish you could control your thermostat from the comfort of your couch? With ESP32 home automation, you can make your home smarter and more efficient than ever before.
 
