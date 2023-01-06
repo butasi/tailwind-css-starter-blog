@@ -4,7 +4,7 @@ date: '2023-01-06'
 tags: ['arduino']
 draft: false
 summary:
-images: ['/static/images/esp32.jpg']
+authors: ['rodgersbutasi']
 ---
 
 # `ESP32 Home Automation:`

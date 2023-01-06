@@ -4,7 +4,11 @@ date: '2023-01-06'
 tags: ['chatgpt']
 draft: false
 summary:
-images: []
+images:
+  [
+    'https://user-images.githubusercontent.com/50394555/79497487-72247980-8030-11ea-97c3-4626659f26a6.jpg',
+  ]
+authors: ['rodgersbutasi']
 ---
 
 # Introduction
