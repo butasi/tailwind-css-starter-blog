@@ -2,9 +2,9 @@ const siteMetadata = {
   title: 'Butasi Blog',
   author: 'Rodgers Butasi',
   headerTitle: 'Butasi Blog',
-  description: 'A blog created with Next.js and Tailwind.css to showcase my Projects.',
+  description: 'A blog created with Next.js and Tailwind.css.',
   language: 'en-us',
-  theme: 'system', // system, dark or light
+  theme: 'dark', // system, dark or light
   siteUrl: 'https://tailwind-css-starter-blog-pb1y-k7atai50l-butasi.vercel.app/',
   siteRepo: 'https://github.com/butasi/tailwind-css-starter-blog',
   siteLogo: '/static/images/logo.png',
