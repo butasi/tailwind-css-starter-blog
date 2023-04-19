@@ -64,4 +64,20 @@ Now that you have installed the necessary drivers and packages, it is time to co
 
 ## Conclusion
 
-Gaming on Arch Linux is a great option for gamers who want a lightweight, customizable, and up-to-date Linux distribution. With its vast selection of gaming-related packages and robust package management system, Arch Linux makes it easy to install and manage gaming-related software. By following the steps
+Gaming on Arch Linux is a great option for gamers who want a lightweight, customizable, and up-to-date Linux distribution. With its vast selection of gaming-related packages and robust package management system, Arch Linux makes it easy to install and manage gaming-related software.
+
+## Bonus Tips for Gaming on Arch Linux
+
+Here are some bonus tips that can further enhance your gaming experience on Arch Linux:
+
+1. **Use a Gaming Keyboard:** A gaming keyboard can help improve your gaming performance by providing faster response times and customizable keybindings. Some popular gaming keyboards that work well with Linux include the Logitech G Pro and the Corsair K70.
+
+2. **Overclock Your Hardware:** Overclocking your CPU and GPU can help improve gaming performance, but it also comes with risks. Make sure to research your hardware and follow safe overclocking practices.
+
+3. **Use a Custom Kernel:** Arch Linux allows you to use custom kernels, which can help optimize your system for gaming. Some popular custom kernels for gaming include Liquorix and Zen.
+
+4. **Monitor Your System:** Monitoring your system can help you identify performance bottlenecks and troubleshoot issues. You can use tools like `htop` and glances to monitor system resources.
+
+## Final Thoughts
+
+Gaming on Arch Linux may require some initial setup, but the benefits are well worth it. With its lightweight and optimized nature, Arch Linux can provide a fast and responsive gaming experience. By following the steps in this guide and implementing some bonus tips, you can take your gaming on Arch Linux to the next level.
